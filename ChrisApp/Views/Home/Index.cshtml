@@ -1,0 +1,18 @@
+﻿@model  ChrisApp.ViewModels.HomeViewModel
+
+<h2>@Model.Title</h2>
+
+@foreach (var slime in Model.Slimes)
+{
+    <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="thumbnail">
+            <img src="@slime.ImageThumbnailUrl" alt="">
+        <div class="caption">
+            <h3 class="pull-right">@slime.Price.ToString("c")</h3>
+        
+        <h3>@slime.Name</h3>
+        <p>@slime.ShortDescription</p>
+    </div>
+  </div>
+</div>
+}
