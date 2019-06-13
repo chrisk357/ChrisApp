@@ -20,6 +20,5 @@ C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\View
 C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\ChrisApp.RazorTargetAssemblyInfo.cs
 C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\ChrisApp.Views.pdb
 C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\ChrisApp.csproj.CopyComplete
-C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\ChrisApp.csprojAssemblyReference.cache
 C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
