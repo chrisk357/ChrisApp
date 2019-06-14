@@ -8,10 +8,11 @@ namespace ChrisApp.Models
 {
     public class AppDbContext : DbContext
     {
+        public DbSet<Slime> Slimes { get; set; }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
         }
-        public  DbSet<Slime>  Slimes { get; set; }
+ 
     }
 }

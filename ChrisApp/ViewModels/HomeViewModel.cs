@@ -8,7 +8,8 @@ namespace ChrisApp.ViewModels
 {
     public class HomeViewModel
     {
-        public string Title { get; set; }
         public List<Slime> Slimes { get; set; }
+        public string Title { get; set; }
+        
     }
 }
