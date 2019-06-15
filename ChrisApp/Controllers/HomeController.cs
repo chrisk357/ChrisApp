@@ -26,10 +26,20 @@ namespace ChrisApp.Controllers
             var homeViewModel = new HomeViewModel()
             {
                 Slimes = slimes.ToList(),
-                Title = "Welcome to Slime Store"
+                Title = "Welcome to My Slime Store"
                
         };
             return View(homeViewModel);
+        }
+
+        public IActionResult Details(int id)
+        {
+            var slime = _slimeRepository.GetSlimeById(id);
+            if (slime == null)
+                return NotFound();
+
+            return View(slime);
+
         }
     }
 }
