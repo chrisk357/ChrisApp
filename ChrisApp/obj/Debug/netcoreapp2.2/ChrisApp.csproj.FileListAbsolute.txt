@@ -27,3 +27,12 @@ C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\View
 C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\ChrisApp.csprojAssemblyReference.cache
 C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Views\Feedback\Index.g.cshtml.cs
 C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Views\Feedback\FeedbackComplete.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\chris\source\repos\ChrisApp\ChrisApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
