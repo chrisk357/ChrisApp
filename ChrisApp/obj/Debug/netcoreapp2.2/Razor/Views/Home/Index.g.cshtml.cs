@@ -24,9 +24,30 @@ using ChrisApp.ViewModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cf093aa32a7b71f8017a51c881509eb8deef2d43", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"574f0fb91f5f2fc72c309e82d3d68ca2eec55a4e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"396dcfb1cb7c71336d9ba190dda5dd4eaa67b9c2", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<HomeViewModel>
     {
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Details", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        #line hidden
+        #pragma warning disable 0169
+        private string __tagHelperStringValueBuffer;
+        #pragma warning restore 0169
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner __tagHelperRunner = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner();
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __backed__tagHelperScopeManager = null;
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __tagHelperScopeManager
+        {
+            get
+            {
+                if (__backed__tagHelperScopeManager == null)
+                {
+                    __backed__tagHelperScopeManager = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager(StartTagHelperWritingScope, EndTagHelperWritingScope);
+                }
+                return __backed__tagHelperScopeManager;
+            }
+        }
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -69,28 +90,49 @@ WriteAttributeValue("", 213, slime.ImageThumbnailUrl, 213, 24, false);
 #line default
 #line hidden
             EndContext();
-            BeginContext(340, 87, true);
-            WriteLiteral("</h4>\r\n        \r\n        <h4>\r\n           <a asp-controller=\"Home\" asp-action=\"Details\"");
+            BeginContext(340, 42, true);
+            WriteLiteral("</h4>\r\n        \r\n        <h4>\r\n           ");
             EndContext();
-            BeginWriteAttribute("asp-route-id", " asp-route-id=\"", 427, "\"", 451, 1);
-#line 14 "C:\Users\chris\source\repos\ChrisApp\ChrisApp\Views\Home\Index.cshtml"
-WriteAttributeValue("", 442, slime.Id, 442, 9, false);
-
-#line default
-#line hidden
-            EndWriteAttribute();
-            BeginContext(452, 1, true);
-            WriteLiteral(">");
-            EndContext();
-            BeginContext(454, 10, false);
+            BeginContext(382, 86, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf093aa32a7b71f8017a51c881509eb8deef2d435348", async() => {
+                BeginContext(454, 10, false);
 #line 14 "C:\Users\chris\source\repos\ChrisApp\ChrisApp\Views\Home\Index.cshtml"
                                                                              Write(slime.Name);
 
 #line default
 #line hidden
+                EndContext();
+            }
+            );
+            __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Controller = (string)__tagHelperAttribute_0.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Action = (string)__tagHelperAttribute_1.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_1);
+            if (__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.RouteValues == null)
+            {
+                throw new InvalidOperationException(InvalidTagHelperIndexerAssignment("asp-route-id", "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper", "RouteValues"));
+            }
+            BeginWriteTagHelperAttribute();
+#line 14 "C:\Users\chris\source\repos\ChrisApp\ChrisApp\Views\Home\Index.cshtml"
+                                                           WriteLiteral(slime.Id);
+
+#line default
+#line hidden
+            __tagHelperStringValueBuffer = EndWriteTagHelperAttribute();
+            __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.RouteValues["id"] = __tagHelperStringValueBuffer;
+            __tagHelperExecutionContext.AddTagHelperAttribute("asp-route-id", __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.RouteValues["id"], global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+            if (!__tagHelperExecutionContext.Output.IsContentModified)
+            {
+                await __tagHelperExecutionContext.SetOutputContentAsync();
+            }
+            Write(__tagHelperExecutionContext.Output);
+            __tagHelperExecutionContext = __tagHelperScopeManager.End();
             EndContext();
-            BeginContext(464, 32, true);
-            WriteLiteral("</a>\r\n        </h4>\r\n        <p>");
+            BeginContext(468, 28, true);
+            WriteLiteral("\r\n        </h4>\r\n        <p>");
             EndContext();
             BeginContext(497, 22, false);
 #line 16 "C:\Users\chris\source\repos\ChrisApp\ChrisApp\Views\Home\Index.cshtml"
